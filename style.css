@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif; /* Font family */
+    font-size: 15px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #333333; /* A cor do plano de fundo da página */
+    color: #f0f0f0; /* A cor do texto */ 
+    border: 3px solid #5988FF;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #D6FF6B; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+}
+
+h2 {
+    color: #D6FF6B; /* A cor do cabeçalho */
+    font-size: 20px; /* A cor da fonte do cabeçalho */
+}
+a1 {
+    color: #FD98FB; /* A cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
