@@ -6,17 +6,30 @@ body {
     border: 3px solid #5988FF;
     border-radius: 10px;
 }
+strong {
+    color: #5988FF; /* A cor do texto em negrito */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
 
 h1 {
     color: #D6FF6B; /* A cor do cabeçalho */
-    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-size: 30px; /* A cor da fonte do cabeçalho */
+    animation: color-change 4s infinite; /* Animação de mudança de cor */
 }
 
 h2 {
     color: #D6FF6B; /* A cor do cabeçalho */
     font-size: 20px; /* A cor da fonte do cabeçalho */
+    animation: color-change 4s infinite; /* Animação de mudança de cor */
 }
+
 a1 {
     color: #FD98FB; /* A cor dos links */
     text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+@keyframes color-change {
+    0% { color: #D6FF6B; }
+    50% { color: #90ee90; }
+    100% { color: #D6FF6B; }
 }
